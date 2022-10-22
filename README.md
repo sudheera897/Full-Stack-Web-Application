@@ -1,18 +1,27 @@
-# Full-Stack-Web-Application
+# 642angular
 
-This project aims at providing the full-stack application development experience by implementing the frontend application using Angular 2 or higher version, and the backend portion of the application using RESTful Web Services, and JDBC or JPA. The backend implementation is done using Spring Boot platform.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
-The application allows prospective students to fill out a survey form to provide feedback about their campus visit. It also allows users to view all surveys recorded to date. The application starts with a welcome homepage, which in essence has two links: Student Survey and List All Surveys. The Student Survey link allows a prospective student to fill out a survey form with an acknowledgement. When the user clicks the submit button, the angular application should invoke a RESTful call which in turn uses JDBC or JPA to store the data in the data base. List All Surveys link allows a user to view all surveys done to date. Here is a revised version of the student survey form that you can use for this effort. In particular, the student survey form contains the following:
+## Development server
 
-o Text boxes for first name, last name, street address, city, state, zip, telephone number, e-mail, and date of survey, which are required fields.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-o Checkboxes that allow prospective students to indicate what they liked most about the campus. The checkboxes should include students, location, campus,
-atmosphere, dorm rooms, and sports.
+## Code scaffolding
 
-o Radio buttons that allow the prospective students to indicate how they became interested in the university. Options include friends, television, Internet, and other.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-o A dropdown list of options for the user to select the likelihood of him/her recommending this school to other prospective students. The three options of the dropdown list are: Very Likely, Likely, Unlikely.
+## Build
 
-o A text area for additional comments, and
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-o Submit and cancel buttons
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
